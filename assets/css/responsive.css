@@ -1,0 +1,45 @@
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 940px) and (max-width: 1223px) {
+    .wide {
+        width: 844px;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 1124px) and (max-width: 1339px) {
+    .wide {
+        width: 1084px;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
