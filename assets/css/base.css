@@ -13,6 +13,7 @@
     --subnav-width: 227px;
     --header-height: 60px;
     --subnav-item-height: 60px;
+    --mobile-subnav-item-height: 33px;
 }
 
 * {
