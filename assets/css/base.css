@@ -103,7 +103,7 @@ html {
     content: "";
     border-bottom: 2px solid var(--primary-color);
     position: absolute;
-    width: 10%;
+    width: 120px;
     left: 50%;
     transform: translateX(-50%);
     top: 84%;
